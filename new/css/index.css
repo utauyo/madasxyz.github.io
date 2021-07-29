@@ -65,11 +65,11 @@ body {
     display: flex;
     justify-content: center;
     box-shadow: 0 0 50px var(--udark);
-    background: rgb(255,132,232);
-    background: -moz-linear-gradient(145deg, rgba(255,132,232,1) 24%, rgba(126,19,223,1) 88%);
-    background: -webkit-linear-gradient(145deg, rgba(255,132,232,1) 24%, rgba(126,19,223,1) 88%);
-    background: linear-gradient(145deg, rgba(255,132,232,1) 24%, rgba(126,19,223,1) 88%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff84e8",endColorstr="#7e13df",GradientType=1);
+    background: rgb(229,103,253);
+    background: -moz-linear-gradient(129deg, rgba(229,103,253,1) 24%, rgba(255,136,181,1) 100%);
+    background: -webkit-linear-gradient(129deg, rgba(229,103,253,1) 24%, rgba(255,136,181,1) 100%);
+    background: linear-gradient(129deg, rgba(229,103,253,1) 24%, rgba(255,136,181,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e567fd",endColorstr="#ff88b5",GradientType=1);
 }
 
 .name{
@@ -96,7 +96,7 @@ body {
 }
 
 .what{
-    background: #11091a;
+    background: #2f3136;
 }
 
 .idfk{
@@ -119,7 +119,7 @@ body {
 }
 
 footer{
-    background: rgba(126,19,223,1);
+    background: #292b2f;
     color: white;
 }
 
