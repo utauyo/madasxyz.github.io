@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+}
+
+.vidja {
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align:center;
+}
+
+.bean {
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 50px var(--udark);
+    background: #1f021f;
+}

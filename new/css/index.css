@@ -45,6 +45,7 @@
 }
 
 body {
+    color: white;
     background: #000;
 	font-family: 'Futura PT medium';
 	font-size: 16px;
@@ -65,9 +66,9 @@ body {
     justify-content: center;
     box-shadow: 0 0 50px var(--udark);
     background: rgb(255,132,232);
-    background: -moz-linear-gradient(145deg, rgba(255,132,232,1) 0%, rgba(126,19,223,1) 88%);
-    background: -webkit-linear-gradient(145deg, rgba(255,132,232,1) 0%, rgba(126,19,223,1) 88%);
-    background: linear-gradient(145deg, rgba(255,132,232,1) 0%, rgba(126,19,223,1) 88%);
+    background: -moz-linear-gradient(145deg, rgba(255,132,232,1) 24%, rgba(126,19,223,1) 88%);
+    background: -webkit-linear-gradient(145deg, rgba(255,132,232,1) 24%, rgba(126,19,223,1) 88%);
+    background: linear-gradient(145deg, rgba(255,132,232,1) 24%, rgba(126,19,223,1) 88%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff84e8",endColorstr="#7e13df",GradientType=1);
 }
 
