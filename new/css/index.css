@@ -1,0 +1,153 @@
+
+@font-face {
+	font-family: 'Futura PT light';
+	src: url("../font/FuturaPTLight.otf");
+}
+
+@font-face {
+	font-family: 'Futura PT medium';
+	src: url("../font/FuturaPTMedium.otf");
+}
+
+@font-face {
+	font-family: 'Futura PT bold';
+	src: url("../font/FuturaPTBold.otf");
+}
+
+@font-face {
+	font-family: 'Futura PT book';
+	src: url("../font/FuturaPTBook.otf");
+}
+
+@font-face {
+	font-family: 'Futura PT Heavy';
+	src: url("../font/FuturaPTHeavy.otf");
+}
+
+@font-face {
+    font-family: "Poppins Regular";;
+    src: url("../font/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins Light";
+    src: url("../font/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: "Poppins Light Italic";
+    src: url("../font/Poppins-LightItalic.ttf");
+}
+
+@font-face {
+    font-family: "Poppins Extra Light";
+    src: url("../font/Poppins-ExtraLight.ttf");
+}
+
+body {
+    background: #000;
+	font-family: 'Futura PT medium';
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Reset style */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.top_section {
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 50px var(--udark);
+    background: rgb(255,132,232);
+    background: -moz-linear-gradient(145deg, rgba(255,132,232,1) 0%, rgba(126,19,223,1) 88%);
+    background: -webkit-linear-gradient(145deg, rgba(255,132,232,1) 0%, rgba(126,19,223,1) 88%);
+    background: linear-gradient(145deg, rgba(255,132,232,1) 0%, rgba(126,19,223,1) 88%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff84e8",endColorstr="#7e13df",GradientType=1);
+}
+
+.name{
+    width: 400px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 90px;
+    text-align:center;
+    color: #fff;
+	font-family: 'Futura PT book';
+}
+
+.mscroll{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-95%);
+}
+
+.what{
+    background: #11091a;
+}
+
+.idfk{
+    margin:0;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+	font-size: 70px;
+	font-family: 'Futura PT book';
+}
+
+.text-idk{
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    color: #fff;
+    font-family: "Poppins Regular";
+    font-size: 24px;
+}
+
+footer{
+    background: rgba(126,19,223,1);
+    color: white;
+}
+
+
+.footer-text{
+    margin:0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align:center;
+    color: #fff;
+	font-size: 17px;
+	font-family: 'Poppins Extra Light';
+}
+
+.footer-heart{
+    margin: 0;
+    text-align: center;
+    font-family: open sans, sans-serif;
+    padding: 10px;
+}
+
+.footer-heart a{border-bottom: 1px solid #453886;color: #453886;padding-bottom: .25em; text-decoration: none; margin: 0;}
+
+.footer-heart a:hover{color:#2196f3; background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 20%;
+  border-bottom: 0;
+  padding-bottom: .3em;
+  text-decoration: none;}
+
+.emoji{vertical-align: middle;}
