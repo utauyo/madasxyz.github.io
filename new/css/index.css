@@ -85,7 +85,7 @@ body {
     font-size: 90px;
     text-align:center;
     color: #fff;
-	font-family: 'Futura PT book';
+	font-family: 'Poppins Regular';
 }
 
 .mscroll{
@@ -104,8 +104,8 @@ body {
     padding-top: 20px;
     text-align: center;
     color: #fff;
-	font-size: 70px;
-	font-family: 'Futura PT book';
+	font-size: 50px;
+	font-family: 'Poppins Regular';
 }
 
 .text-idk{
@@ -114,7 +114,7 @@ body {
     padding-bottom: 40px;
     padding-left: 100px;
     color: #fff;
-    font-family: "Poppins Regular";
+    font-family: "Poppins Light";
     font-size: 24px;
 }
 
