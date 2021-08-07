@@ -92,7 +92,7 @@ body {
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+    background: #555;
   }
 
 #TopSection {
@@ -119,11 +119,10 @@ body {
     position: absolute;
     text-align: center;
     align-self: center;
-    font-size: 90px;
+    font-size: 100px;
     color: #fff;
 	font-family: 'Poppins Regular';
 }
-
 
 #TopSection .mscroll {
     position: absolute;
@@ -132,38 +131,60 @@ body {
     transform: translate(-50%,-95%);
 }
 
-#AboutMe{
+#AboutMe {
     padding: 2%;
     background: #2f3136;
 }
 
-#AboutMe .background {
-    margin: auto;
+#AboutMe .aboutme_container {
+    display: flex;
+    justify-content: center;
+}
+
+#AboutMe .left {
+    margin-right: 4%;
+    width: 30%;
     background-color: #202225;
     border-radius: 8px;
     box-shadow: 0px 5px 5px rgb(26 26 26);
-    min-width: 330px;
-    max-width: 800px; 
+    width: 600px;
 }
 
 #AboutMe .title {
     margin: 0;
     padding-top: 20px;
-    padding-bottom: 20px;
     text-align: center;
     color: #fff;
-	font-size: 50px;
+	font-size: 70px;
 	font-family: 'Poppins Regular';
 }
 
 #AboutMe .text {
     text-align: left;
     overflow: auto;
-    padding: 4%;
+    padding: 5%;
     margin: 0;
     color: #fff;
     font-family: "Poppins Light";
     font-size: 20px;
+}
+
+#AboutMe .socials {
+
+}
+
+#AboutMe .socialicon {
+
+}
+
+#AboutMe .right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#AboutMe .image1 {
+    box-shadow: 0px 5px 5px rgb(26 26 26);
+    border-radius: 8;
 }
 
 footer{
@@ -198,7 +219,8 @@ footer{
     color: #fff;
     padding-bottom: .25em;
     text-decoration: none;
-    margin: 0;}
+    margin: 0;
+}
 
 .footer-heart a:hover{
     color:#2196f3; 
@@ -227,6 +249,14 @@ footer{
 
     #AboutMe {
         padding: 5%
+    }
+
+    #AboutMe .left {
+        padding-right: 0;
+    }
+     
+    #AboutMe .right {
+        display: none;
     }
 
 }
