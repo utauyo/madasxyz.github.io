@@ -244,15 +244,25 @@ footer{
 @media only screen and (max-width: 768px) {
 
     #TopSection .name {
-        min-width: px
+        min-width: 100px;
+        max-width: 350px;
+        font-size: 80px;
     }
 
     #AboutMe {
-        padding: 5%
+        padding: 5%;
+    }
+
+    #AboutMe .title {
+        font-size: 50px;
     }
 
     #AboutMe .left {
-        padding-right: 0;
+        margin-right: 0;
+    }
+
+    #AboutMe .text {
+        font-size: 15px;
     }
      
     #AboutMe .right {
