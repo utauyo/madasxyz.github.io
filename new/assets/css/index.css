@@ -120,7 +120,6 @@ body {
     text-align: center;
     align-self: center;
     font-size: 90px;
-    text-align:center;
     color: #fff;
 	font-family: 'Poppins Regular';
 }
@@ -150,6 +149,7 @@ body {
 #AboutMe .title {
     margin: 0;
     padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     color: #fff;
 	font-size: 50px;
@@ -222,7 +222,7 @@ footer{
 @media only screen and (max-width: 768px) {
 
     #TopSection .name {
-        width: 300px
+        min-width: px
     }
 
     #AboutMe {
