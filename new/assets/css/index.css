@@ -1,4 +1,12 @@
 
+:root {
+    --purpleish: rgba(229,103,253,1);
+    --pink: rgba(255,136,181,1);
+    --footer: #292b2f;
+    --background: #2f3136;
+    --subbackground: #202225;
+}
+
 @font-face {
 	font-family: 'Futura PT light';
 	src: url("../font/FuturaPTLight.otf");
@@ -68,7 +76,24 @@ body {
     }
   }
 
-
+  ::-webkit-scrollbar {
+    width: 11px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 
 #TopSection {
     height: 100vh;
@@ -118,7 +143,7 @@ body {
     background-color: #202225;
     border-radius: 8px;
     box-shadow: 0px 5px 5px rgb(26 26 26);
-    min-width: 340px;
+    min-width: 330px;
     max-width: 800px; 
 }
 
@@ -132,16 +157,17 @@ body {
 }
 
 #AboutMe .text {
+    text-align: left;
     overflow: auto;
     padding: 4%;
     margin: 0;
     color: #fff;
     font-family: "Poppins Light";
-    font-size: 17px;
+    font-size: 20px;
 }
 
 footer{
-    background: #292b2f;
+    background: var(--footer);
     color: white;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -167,7 +193,12 @@ footer{
     padding: 9px;
 }
 
-.footer-heart a{border-bottom: 1px solid #453886;color: #453886;padding-bottom: .25em; text-decoration: none; margin: 0;}
+.footer-heart a{
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    padding-bottom: .25em;
+    text-decoration: none;
+    margin: 0;}
 
 .footer-heart a:hover{
     color:#2196f3; 
@@ -189,10 +220,13 @@ footer{
 
 
 @media only screen and (max-width: 768px) {
+
+    #TopSection .name {
+        width: 300px
+    }
+
     #AboutMe {
         padding: 5%
     }
-
-    
 
 }
