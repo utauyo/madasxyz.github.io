@@ -173,6 +173,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 6px;
+    padding-top: 6%;
 }
 
 #AboutMe .socialicon {
@@ -272,6 +273,10 @@ footer{
 
     #AboutMe .text {
         padding: 6%;
+    }
+
+    #AboutMe .socials {
+        padding-top: 0;
     }
 
     #AboutMe .socialicon {
