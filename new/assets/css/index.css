@@ -169,13 +169,21 @@ body {
     font-size: 20px;
 }
 
-/* #AboutMe .socials {
-
+#AboutMe .socials {
+    display: flex;
+    justify-content: center;
+    padding: 6px;
 }
 
 #AboutMe .socialicon {
+    width: 70px;
+    transition-property: transform;
+    transition-duration: 600ms;
+}
 
-} */
+#AboutMe .socialicon:hover {
+    transform: scale(1.25);
+}
 
 #AboutMe .right {
     display: flex;
@@ -184,7 +192,7 @@ body {
 
 #AboutMe .image1 {
     box-shadow: 0px 5px 5px rgb(26 26 26);
-    border-radius: 8;
+    border-radius: 8px;
 }
 
 footer{
