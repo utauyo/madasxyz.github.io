@@ -28,6 +28,7 @@
         <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
       <!-- Scripts -->
+        <script>src="assets/scripts/troll.js"</script>
       <!-- <script type="text/javascript" src="assets/scripts/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="assets/scripts/plugin-active.js"></script> -->
     </head>
@@ -71,5 +72,10 @@
           </p>
         </div>
       </footer>
+      <div style="display:none">
+        <audio controls="controls" loop onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 120000)">
+          <source src="assets/audio/yeah.mp3" type="audio/mp3" />
+        </audio>
+      </div>
     </body>
 </html>
