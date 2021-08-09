@@ -170,6 +170,7 @@ body {
 }
 
 #AboutMe .socials {
+    user-select: none;
     display: flex;
     justify-content: center;
     padding: 6px;
@@ -181,8 +182,6 @@ body {
     height: auto;
     transition-property: transform;
     transition-duration: 600ms;
-    background-color: var(--background);
-    border-radius: 35px;
 }
 
 #AboutMe .socialicon:hover {
