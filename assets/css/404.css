@@ -102,3 +102,11 @@ button {
     left: 50%;
     transform: translate(-50%,-95%);
 }
+
+@media only screen and (max-width: 768px) {
+
+    .dividk {
+        min-width: 100px;
+        max-width: 350px;
+    }
+}
