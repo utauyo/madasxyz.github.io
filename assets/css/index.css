@@ -181,11 +181,11 @@ body {
     width: 70px;
     height: auto;
     transition-property: transform;
-    transition-duration: 600ms;
+    transition-duration: 300ms;
 }
 
 #AboutMe .socialicon:hover {
-    transform: scale(1.25);
+    transform: scale(1.2);
 }
 
 #AboutMe .right {
