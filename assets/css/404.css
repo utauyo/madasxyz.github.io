@@ -1,3 +1,12 @@
+
+:root {
+    --purpleish: rgba(229,103,253,1);
+    --pink: rgba(255,136,181,1);
+    --footer: #292b2f;
+    --background: #2f3136;
+    --subbackground: #202225;
+}
+
 @font-face {
 	font-family: 'Futura PT light';
 	src: url("../font/FuturaPTLight.otf");
@@ -101,6 +110,11 @@ button {
     top: 90%;
     left: 50%;
     transform: translate(-50%,-95%);
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: var(--subbackground);
 }
 
 @media only screen and (max-width: 768px) {
