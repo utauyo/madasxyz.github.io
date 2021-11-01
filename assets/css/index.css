@@ -285,7 +285,7 @@ footer{
     }
      
     #AboutMe .right {
-        display: flex;
+        display: none;
     }
 
 }
