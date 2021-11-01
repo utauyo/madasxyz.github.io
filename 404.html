@@ -12,20 +12,25 @@
 		<meta name="theme-color" content="#e466fc">
 		<meta name="404! Could not find this page or file!" content="Website Made By Arm/madas" />
 
-        <link rel="stylesheet" type="text/css" href="./assets/css/404.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" shrink-to-fit="no">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     </head>
-    <body>
+    <body id="error">
         <header>
             <div class="yea">
                 <div class="dividk">
-                    <h1>404 D:</h1>
+                    <h1 class="h1">404 D:</h1>
                     <p class="text">Could not find this page or file!</p>
                 </div>
-                <button type="button" onclick="window.location.href = 'index'">Go Home</button> 
+                <button class="Homebtn" type="button" onclick="window.location.href = 'index'">Go Home</button> 
             </div>
         </header>
+        <div style="display:none">
+            <audio controls="controls" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 1000)">
+              <source src="/assets/audio/yeah.mp3" type="audio/mp3" />
+            </audio>
+          </div>
     </body>
 </html>

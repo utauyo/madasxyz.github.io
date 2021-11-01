@@ -7,6 +7,16 @@
     --subbackground: #202225;
 }
 
+::-moz-selection {
+    color: var(--subbackground);
+    background: var(--pink);
+  }
+  
+  ::selection {
+    color: var(--subbackground);
+    background: var(--pink);
+  }
+
 @font-face {
 	font-family: 'Futura PT light';
 	src: url("../font/FuturaPTLight.otf");
@@ -288,4 +298,79 @@ footer{
         display: none;
     }
 
+}
+
+/* 404.html css */
+
+#error body {
+    background: white;
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: white;
+	font-family: 'Poppins Regular';
+	font-size: 16px;
+	line-height: 1.5;
+    margin: 0;
+}
+
+#error .yea {
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 50px #150025;
+    background: rgb(229,103,253);
+    background: -moz-linear-gradient(129deg, rgba(229,103,253,1) 24%, rgba(255,136,181,1) 100%);
+    background: -webkit-linear-gradient(129deg, rgba(229,103,253,1) 24%, rgba(255,136,181,1) 100%);
+    background: linear-gradient(129deg, rgba(229,103,253,1) 24%, rgba(255,136,181,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e567fd",endColorstr="#ff88b5",GradientType=1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#error .dividk {
+    width: 400px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    font-size: 40px;
+    color: #fff;
+}
+
+#error h1 {
+    margin-bottom: 0;
+}
+
+#error .text {
+    font-size: 18px;
+}
+
+#error button {
+    border-radius: 5px;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: #2f3136;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-95%);
+    transition-duration: 0.3s;
+}
+
+#error button:hover {
+    background-color: var(--subbackground);
+}
+
+@media only screen and (max-width: 768px) {
+
+    #error .dividk {
+        min-width: 100px;
+        max-width: 350px;
+    }
 }
