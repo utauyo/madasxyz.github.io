@@ -1,3 +1,11 @@
+:root {
+    --purpleish: rgba(229,103,253,1);
+    --pink: rgba(255,136,181,1);
+    --footer: #292b2f;
+    --background: #2f3136;
+    --subbackground: #202225;
+}
+
 body{
     margin: 0;
 }
@@ -20,5 +28,12 @@ body{
     display: flex;
     justify-content: center;
     box-shadow: 0 0 50px var(--udark);
-    background: #1f021f;
+    background: var(--background);
+}
+
+.thefuckisabutton{
+    border-color: var(--subbackground);
+    border-radius: 5px;
+    background-color: rgb(113, 118, 122);
+    margin-top: 1vh;
 }
