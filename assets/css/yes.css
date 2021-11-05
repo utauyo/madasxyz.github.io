@@ -6,7 +6,7 @@
     --subbackground: #202225;
 }
 
-body{
+.body{
     margin: 0;
 }
 
@@ -28,7 +28,6 @@ body{
     display: flex;
     justify-content: center;
     box-shadow: 0 0 50px var(--udark);
-    background: var(--background);
 }
 
 .thefuckisabutton{
