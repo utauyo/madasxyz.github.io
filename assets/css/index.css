@@ -272,6 +272,10 @@ footer{
 
 @media only screen and (max-width: 768px) {
 
+    #TopSection {
+        height: 95vh;
+    }
+
     #TopSection .logo {
         height: 60px;
         width: auto;
