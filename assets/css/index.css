@@ -123,6 +123,14 @@ body {
     user-select: none;
 }
 
+#TopSection .logo {
+    width: auto;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+    align-self: center;
+}
+
 #TopSection .name {
     width: 400px;
     color: white;
