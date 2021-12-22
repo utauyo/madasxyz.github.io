@@ -24,7 +24,8 @@
       vertical-align: center;
       flex-wrap: wrap;
       align-content: center;
-      color: #d9d9d9; 
+
+      color: #2a2b2c;
       background: rgb(229,103,253);
       background: -moz-linear-gradient(129deg, rgba(229,103,253,1) 24%, rgba(255,136,181,1) 100%);
       background: -webkit-linear-gradient(129deg, rgba(229,103,253,1) 24%, rgba(255,136,181,1) 100%);
@@ -33,9 +34,8 @@
       overflow: hidden;
     }
     .card {
-      background-color: #2f3136;
+      background-color: #d9d9d9;
       width: 768px;
-	  box-shadow: 0 5px 5px rgb(26 26 26);
     }
     .card-text {
       text-align: center;
@@ -59,10 +59,20 @@
       .card {
         width: 95%;
       }
+    }
+    @media (prefers-color-scheme: dark) { 
+      body {
+        color: #d9d9d9; 
+        background: rgb(229,103,253);
+		background: -moz-linear-gradient(129deg, rgba(229,103,253,1) 24%, rgba(255,136,181,1) 100%);
+		background: -webkit-linear-gradient(129deg, rgba(229,103,253,1) 24%, rgba(255,136,181,1) 100%);
+		background: linear-gradient(129deg, rgba(229,103,253,1) 24%, rgba(255,136,181,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e567fd",endColorstr="#ff88b5",GradientType=1);
+      }
+      .card {
+        background-color: #2f3136;
+      }
     } 
-	.modal-dialog {
-      background-color: #2f3136 !important;
-	}
   </style>
 </head>
 <body>
