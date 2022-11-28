@@ -1,2 +1,5 @@
-User-agent: Googlebot-Image
-Disallow: /assets/images
+User-agent: *
+Disallow: /socials/
+Disallow: /socials/*
+
+Sitemap: https://madas.xyz/sitemap.xml
