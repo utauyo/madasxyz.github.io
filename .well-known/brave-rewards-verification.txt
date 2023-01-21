@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: madas.xyz
+Token: 2332246c5221f86be18147ca057e2a86ebf0a64548fea5f25a4425612f9718b5
