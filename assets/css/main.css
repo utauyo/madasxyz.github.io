@@ -1,0 +1,77 @@
+:root {
+  --text: #ddd;
+  --lesstext: #888;
+  --pink: rgba(255,136,181,1);
+  --altpink: rgba(229,103,253,1);
+  --background: #191919;
+}
+  
+body {
+  background-color: var(--background);
+  height: 100vh;
+  overflow: hidden;
+  margin: 0px;
+
+  color: var(--text);
+  font-family: Montserrat, sans-serif, Tahoma;
+  font-display: swap;
+  text-align: center;
+}
+
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  gap: 30px;
+}
+
+p {
+  margin: 5%;
+}
+
+a {
+  color: var(--lesstext);
+  text-decoration: none;
+  transition: 200ms ease-in-out;
+  margin: 5px;
+}
+
+a:hover {
+  color: var(--pink)
+}
+
+body > p {
+  font-size: 10pt;
+  color: var(--lesstext);
+  margin: 0;
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+  transition: 200ms ease-in-out;
+}
+
+body > p:hover {
+  color: var(--text)
+}
+
+::-moz-selection {
+  color: var(--background);
+  /* background: var(--pink); */
+  background: rgba(255,136,181,0.9);
+}
+
+::selection {
+  color: var(--background);
+  /* background: var(--pink); */
+  background: rgba(255,136,181,0.9);
+}
+
+@media only screen and (max-width: 768px) {
+  div {width: 90vw}
+  h1 {font-size: 32pt}
+  p {font-size: 16pt}
+  a {font-size: 16pt}
+  body > p {font-size: 12pt}
+}

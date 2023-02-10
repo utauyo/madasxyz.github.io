@@ -2,6 +2,6 @@ User-agent: *
 Disallow: /socials/
 
 User-agent: Googlebot-Image
-Disallow: /assets/images
+Disallow: /assets/*
 
 Sitemap: https://madas.xyz/sitemap.xml
