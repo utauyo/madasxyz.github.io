@@ -9,35 +9,8 @@
 
 <url>
   <loc>https://madas.xyz/</loc>
-  <lastmod>2021-08-09T12:52:04+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2023-02-12T17:27:38+00:00</lastmod>
 </url>
-<url>
-  <loc>https://madas.xyz/snek</loc>
-  <lastmod>2021-08-09T12:52:04+00:00</lastmod>
-  <priority>0.90</priority>
-</url>
-<!--
-<url>
-  <loc>https://madas.xyz/socials/twitter</loc>
-  <lastmod>2021-08-09T12:52:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://madas.xyz/socials/github</loc>
-  <lastmod>2021-08-09T12:52:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://madas.xyz/socials/steam</loc>
-  <lastmod>2021-08-09T12:52:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://madas.xyz/socials/osu</loc>
-  <lastmod>2021-08-09T12:52:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
--->
+
 
 </urlset>
