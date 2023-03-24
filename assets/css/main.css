@@ -46,7 +46,7 @@ a:hover {
   color: var(--pink)
 }
 
-body > a {
+body > p {
   font-size: 10pt;
   color: var(--lesstext);
   margin: 0;
@@ -57,7 +57,7 @@ body > a {
   user-select: none;
 }
 
-body > a:hover {
+body > p:hover {
   color: var(--text)
 }
 
