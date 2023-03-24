@@ -27,6 +27,10 @@ div {
   gap: 30px;
 }
 
+h1 {
+  font-weight: 500;
+}
+
 p {
   margin: 5%;
 }
@@ -42,7 +46,7 @@ a:hover {
   color: var(--pink)
 }
 
-body > p {
+body > a {
   font-size: 10pt;
   color: var(--lesstext);
   margin: 0;
@@ -50,9 +54,10 @@ body > p {
   bottom: 7px;
   right: 7px;
   transition: 200ms ease-in-out;
+  user-select: none;
 }
 
-body > p:hover {
+body > a:hover {
   color: var(--text)
 }
 
@@ -70,8 +75,9 @@ body > p:hover {
 
 @media only screen and (max-width: 768px) {
   div {width: 90vw}
-  h1 {font-size: 32pt}
-  p {font-size: 16pt}
-  a {font-size: 16pt}
+  h1 {font-size: 28pt}
+  p {font-size: 15pt}
+  a {font-size: 15pt}
   body > p {font-size: 12pt}
+  /* body {font-size:130%} */
 }
