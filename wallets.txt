@@ -1,0 +1,11 @@
+Monero
+49yvX45VWxWhqmYUJdMMT18SNVaw4tEQyZrQxs1syDZ9Qbbhekigw5UBxJpoe1uTJYBHRTMdqqMcSETprCD1vb2G9THFtQZ
+
+Bitcoin
+bc1q4ufp8xhtahn06gsteyrse5njrvtv4qz0eveq2t
+
+Ethereum
+0x1B803521CACb0234F0daA81B113785336841a12d
+
+Litecoin 
+LMpp6jCwWcR2FBk3yKcGV1FCwGeB1ADDen
